@@ -1,0 +1,1 @@
+This repository is used in Blog Post ID 1947 to build Azure Virtual Desktop in the cloud only option. You can find the setup guide here: https://justinverstijnen.nl/pooled-azure-virtual-desktop-with-azure-ad-users/
