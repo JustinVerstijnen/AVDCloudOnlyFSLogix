@@ -24,4 +24,3 @@ New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\AzureADAccount" -Name 
 
 # Create the credentials for the storage account
 cmdkey.exe /add:$fileServer /user:$($user) /pass:$($storageaccesskey)
-New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Lsa" -Name "LsaCfgFlags" -Value 0 -force
