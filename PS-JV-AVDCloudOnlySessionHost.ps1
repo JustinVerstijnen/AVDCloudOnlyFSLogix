@@ -14,9 +14,9 @@ $storageaccesskey = "yourkeyhere"
 # Don't change anything under this line ---------------------------------
 
 # Formatting user input to script
-$profileShare="\\$($fileServer)\$profilesharename"
+$profileShare = "\\$($fileServer)\$profilesharename"
 $fileServerShort = $fileServer.Split('.')[0]
-$user="localhost\$fileServerShort"
+$user = "localhost\$fileServerShort"
 
 # Insert credentials in profile
 New-Item -Path "HKLM:\Software\Policies\Microsoft" -Name "AzureADAccount" -ErrorAction Ignore
