@@ -1,4 +1,3 @@
-﻿# PARAMETERS
 # Change these 3 settings to your own settings
 
 # Storage account FQDN
